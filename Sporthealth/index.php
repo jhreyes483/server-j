@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL & ~E_NOTICE);
 define('ROOT', realpath(dirname(__FILE__)). '/sporthealth/');
-
+echo ROOT;
 //echo ROOT.'<br>';
 //echo dirname(__FILE__);
 define('APP_PATH', ROOT . 'application/' );
