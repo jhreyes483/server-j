@@ -2,10 +2,10 @@
  class Conexion extends mysqli{
  
  
-     private $DB_HOST = 'localhost';
-     private $DB_USER = 'root';
-     private $DB_PASS = '';
-     private $DB_NAME = 'sporthealth';
+     private $DB_HOST = 'bmflydmhky78zpgmwam0-mysql.services.clever-cloud.com';
+     private $DB_USER = 'ufjhou3db5j6bg6l';
+     private $DB_PASS = 'vzqWcZFBTkwMLBZ2FaYQ';
+     private $DB_NAME = 'bmflydmhky78zpgmwam0';
  
      public function __construct(){
          parent:: __construct($this->DB_HOST, $this->DB_USER, $this->DB_PASS, $this->DB_NAME);
