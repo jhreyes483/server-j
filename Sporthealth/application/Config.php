@@ -8,7 +8,7 @@ define("imgProducto", "ProductoSinImagen.png");
 
 
 //controlador por defecto de nuestra aplicacion
-define('BASE_URL', 'https://localhost/sporthealth/');  
+define('BASE_URL', 'http://server-j.herokuapp.com/Sporthealth/');  
 define('DEFAULT_CONTROLLER', 'index');
 define('DEFAULT_LAYOUT', 'layout1');
 
